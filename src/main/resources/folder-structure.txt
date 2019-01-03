@@ -1,0 +1,10 @@
+Reminder to the structure:
+Main dir is #user-app, it contain:
+1. jar file:user-app.jar
+2.file run.bat
+3.inner dir:config.(the inner dir contain: 1. config.yml)
+#user-app:
+            *user-app.jar
+            *run.bat
+            #config:
+                    config.yml
